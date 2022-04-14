@@ -1,4 +1,4 @@
-FROM nvcr.io/ea-linux4tegra/l4t-pytorch:r34.0.1-pth1.10-py3
+FROM nvcr.io/ea-linux4tegra/l4t-pytorch:r34.1.0-pth1.12-py3
 
 RUN git clone https://github.com/NVIDIA-AI-IOT/torch2trt && \
     cd torch2trt && \

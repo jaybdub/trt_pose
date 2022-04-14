@@ -11,7 +11,6 @@ import cv2
 import torchvision.transforms as transforms
 import PIL.Image
 
-
 parser = argparse.ArgumentParser()
 parser.add_argument('--camera_device', type=int, default=0)
 parser.add_argument('--task', type=str, default='human_pose.json')
